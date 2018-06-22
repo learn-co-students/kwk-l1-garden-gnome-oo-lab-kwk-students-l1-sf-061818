@@ -3,8 +3,8 @@ class GardenGnome
   attr_reader :name, :age, :gluten_allergy, :hat_color, :introduce_self, :personality
   attr_writer :name, :age, :gluten_allergy, :hat_color, :introduce_self
 
-  def initialize(personality = "evil", hat_color = "red")
-   @personality = personality
+  def initialize(hat_color = "red")
+   @personality = "evil"
    @hat_color = hat_color 
  end
  def gnaw 
